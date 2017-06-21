@@ -19,8 +19,8 @@ var lost = Bool(true)
 var expensive = Bool(true)
 var choice = Int(2)
 let integral = Character("\u{222B}")
-let greeting = String("Hello")
-var name = String("Karen")
+let greeting: String = "Hello"
+var name: String = "Karen"
 
 
 //Compare sample1 to sample2 and if they are equal display "The samples are equal." otherwise display "The samples are not equal."
@@ -99,4 +99,10 @@ while (age < 6){
 
 
 //Display a line that contains the greeting String followed by a space followed by the name String.
-print(greeting!,"",name!)
+print(greeting,name)
+
+
+
+let age1 = 5
+print("age = \(age1)")
+
